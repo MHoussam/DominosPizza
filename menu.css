@@ -1,0 +1,75 @@
+@import url(//db.onlinewebfonts.com/c/7c6661efce01eac269383bac79303c1b?family=Arial+Narrow);
+@font-face {font-family: "Arial Narrow"; src: url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.eot"); src: url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.woff") format("woff"), url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.svg#Arial Narrow") format("svg"); }
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    margin-top: -24px;
+    margin-left: -8px;
+    
+}
+
+.first {
+    height: 75px;
+    background-color: #006491;
+    margin-bottom: -16px;
+}
+
+.second {
+    height: 40px;
+    background-color: red;
+}
+
+.logo {
+    padding-top: 15px;
+    float: left;
+    cursor: pointer;
+    padding-left: 15.5%;
+} 
+
+.list1 li {
+    display: inline-block;
+    padding-left: 16px;
+    padding-top: 28px;
+    font-weight: bold;
+    font-family: One Dot Condensed Bold, Arial Narrow,Arial,Helvetica,sans-serif;;
+    font-size: 15px;
+}
+
+.list1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.list1 {
+    float: left;
+}
+
+.list2 li {
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    
+}
+
+.list2 a {
+    text-decoration: none;
+    color: white;
+}
+
+a.visited {
+    text-decoration: none;
+    color: white;
+}
+
+.person {
+    padding-left: 900px;
+    padding-top: 30px;
+}
+
+.sign-in {
+    background-color: #005177;
+}
