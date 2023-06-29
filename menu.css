@@ -5,7 +5,7 @@
 .header {
     position: fixed;
     width: 100%;
-    margin-top: -24px;
+    margin-top: -16px;
     margin-left: -8px;
     
 }
@@ -33,7 +33,7 @@
     padding-left: 16px;
     padding-top: 28px;
     font-weight: bold;
-    font-family: One Dot Condensed Bold, Arial Narrow,Arial,Helvetica,sans-serif;;
+    font-family: Arial Narrow;
     font-size: 15px;
 }
 
@@ -43,6 +43,8 @@
 }
 
 .list1 {
+    margin-left: -38px;
+    margin-top: -14px;
     float: left;
 }
 
@@ -52,7 +54,6 @@
     padding-top: 20px;
     font-weight: bold;
     font-family: Arial;
-    
 }
 
 .list2 a {
@@ -65,11 +66,27 @@ a.visited {
     color: white;
 }
 
+.sign {
+    display: inline-block;
+    width: 50px;
+    height: 75px;
+    margin-left: 155px;
+    padding-left: 145px;
+    background-color: #005177;
+}
+
 .person {
-    padding-left: 900px;
-    padding-top: 30px;
+    padding-top: 25px;
+    float: left;
 }
 
 .sign-in {
-    background-color: #005177;
+    display: inline-block;
+    padding-left: 0px;
+    padding-top: -20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial Narrow;
+    font-size: 13px;
+    float: left;
 }
