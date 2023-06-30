@@ -4,8 +4,9 @@
 
 .header {
     position: fixed;
+    top: 0px !important;
     width: 100%;
-    margin-top: -18px;
+    margin-top: -2px;
     margin-left: -8px;
 }
 
@@ -88,8 +89,8 @@ li.select1 a {
 }
 
 li.select2 a { 
-    height: 39px;
-    width: 60px;
+    height: 44px;
+    width: 56px;
     text-align: center;
     margin-top: -28px;
     display: block;
@@ -168,6 +169,41 @@ li.select6 a {
     padding-left: 73px;
 }
 
-.start {
-    padding-top: 120px;
+.order {
+    margin-top: 140px;
+    margin-left: 200px;
+    margin-right: 210px;
+    padding-bottom: 300px;
+    background-color: #005177;
+}
+
+.start_order {
+    float: left;
+    margin-left: 65px;
+    margin-top: -15px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: One Dot Condensed Bold,Arial Narrow,Arial,Helvetica,sans-serif;
+}
+
+.or {
+    float: left;
+    color: white;
+}
+
+#button1 {
+    float: left;
+    margin-left: 103px;
+    margin-top: 8px;
+    padding-bottom: 29px;
+    padding-right: 147px;
+    color: white;
+    font-family: One Dot Condensed Bold,Arial Narrow,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    background-color: #e31837;
+    border: none;
+    border-radius: 4px;
 }
