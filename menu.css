@@ -1,6 +1,74 @@
 @import url(//db.onlinewebfonts.com/c/7c6661efce01eac269383bac79303c1b?family=Arial+Narrow);
 @font-face {font-family: "Arial Narrow"; src: url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.eot"); src: url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.woff") format("woff"), url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.svg#Arial Narrow") format("svg"); }
+@font-face {
+    font-family: "ArchivoNarrow"; 
+    src: url(fonts/ArchivoNarrow.tff) format('truetype');
+}
 
+@font-face {
+    font-family: "Aclonica-Regular";
+    src: url(fonts/Aclonica-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Aclonica-Bold";
+    src: url(fonts/Aclonica-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Agdasima-Bold";
+    src: url(fonts/Agdasima-Bold.tff) format('truetype');
+}
+
+@font-face {
+    font-family: "Agdasima-Regular";
+    src: url(fonts/Agdasima-Regular.tff) format('truetype');
+}
+
+@font-face {
+    font-family: "RobotoCondensed-Bold";
+    src: url(fonts/RobotoCondensed-Bold.tff) format('truetype');
+}
+
+@font-face {
+    font-family: "RobotoCondensed-Regular";
+    src: url(fonts/RobotoCondensed-Regular.tff) format('truetype');
+}
+
+@font-face {
+    font-family: "Futur";
+    src: url(fonts/futur.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Futura-Bold";
+    src: url(fonts/Futura-Bold-font.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Futura-Book";
+    src: url(fonts/Futura-Book.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Futura-Heavy";
+    src: url(fonts/Futura-Heavy.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Benguiat-Normal";
+    src: url(fonts/Benguiat-Normal.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Benguiat-Regular";
+    src: url(fonts/Benguiat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Benguiat-Bold";
+    src: url(fonts/Benguiat-Bold.ttf) format('truetype');
+}
 
 .header {
     position: fixed;
@@ -27,6 +95,7 @@
     padding-right: 10px;
     float: left;
     margin-left: 210px;
+    cursor: pointer;
 } 
 
 .list1 li {
@@ -177,45 +246,46 @@ li.select6 a {
 }
 
 .order {
-    margin-top: 140px;
+    margin-top: 133px;
     margin-left: 200px;
     width: 930px;
     height: 61px;
     background-color: #006491;
     border-radius: 9px;
+    display: inline-block;
 }
 
 .start_order {
     float: left;
     margin-left: 65px;
-    margin-top: -15px;
+    margin-top: -27px;
     color: white;
     font-weight: bold;
-    font-size: 30px;
-    font-family: One Dot Condensed Bold,Arial Narrow,Arial,Helvetica,sans-serif;
+    font-size: 36px;
+    font-family: "Futura-Bold", "Arial Narrow";
 }
 
 .or {
     float: left;
     color: white;
     margin-left: 10px;
-    margin-top: -10px;
-    font-family: Two Dots Black Italic,Hoefler Text,Baskerville,Baskerville Old Face,Georgia,Times,Times New Roman,serif;
-    font-size: 25px;
+    margin-top: -6px;
+    font-family: Georgia;
+    font-size: 22px;
     font-weight: bold;
     font-style: italic;
 }
 
 .button1 {
     float: left;
-    margin-left: 103px;
+    margin-left: 106px;
     margin-top: 8px;
     width: 207px;
     height: 46px;
     color: white;
-    font-family: One Dot Condensed Bold,Arial Narrow,Arial,Helvetica,sans-serif;
+    font-family: "Futura-Bold", "Arial Narrow";
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     background-color: #e31837;
     border: none;
@@ -230,9 +300,8 @@ li.select6 a {
     width: 207px;
     height: 46px;
     color: white;
-    font-family: One Dot Condensed Bold,Arial Narrow,Arial,Helvetica,sans-serif;
-    font-weight: bold;
-    font-size: 16px;
+    font-family: "Futura-Bold", "Arial Narrow";
+    font-size: 18px;
     text-align: center;
     background-color: #e31837;
     border: none;
@@ -250,7 +319,35 @@ li.select6 a {
     background-color: #960f23;
 }
 
-h1 {
+.start {
+    margin-left: 203px;
+    margin-top: -30px;
+}
+
+.text1 {
+    font-family: "Futura-Bold", "Arial Narrow";
+    font-size: 2.5em;
+    display: inline-block;
+    color: #333;
+}
+
+.text2 {
+    color: #006491;
     font-family: "Arial Narrow";
-    font-weight: bolder;
+    font-size: 13.5px;
+    margin-top: -30px;
+}
+
+.span1 {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #006491;
+}
+
+.span1 a {
+    color: #006491;
+}
+
+.span1 a:hover {
+    color: red;
 }
