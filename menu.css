@@ -167,6 +167,13 @@ li.select6 a {
 
 .cart {
     padding-left: 73px;
+    float: left;
+}
+
+.notifications {
+    position: absolute;
+    margin-top: -8px;
+    margin-left: 100px;
 }
 
 .order {
@@ -241,4 +248,9 @@ li.select6 a {
 
 .button1:hover, .button2:hover {
     background-color: #960f23;
+}
+
+h1 {
+    font-family: "Arial Narrow";
+    font-weight: bolder;
 }
