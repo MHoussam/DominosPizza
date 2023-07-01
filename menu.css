@@ -710,6 +710,7 @@ main {
 .pizza-order {
     margin-top: 15px;
     margin-left: 209px;
+    padding-bottom: 4px;
     width: 915px;
     display: inline-block;
 }
@@ -723,6 +724,7 @@ main {
     float: left;
     width: 202px;
     margin-right: 35px;
+    margin-bottom: 4px;
     cursor: pointer;
 }
 
@@ -732,8 +734,13 @@ main {
     cursor: pointer;
 }
 
-.pizza1:hover, .pizza2:hover, .pizza3:hover, .pizza4:hover, .pizza5:hover, .pizza6:hover, .pizza7:hover, .pizza8:hover, .pizza9:hover, .pizza10:hover, .pizza11:hover, .pizza12:hover, .pizza13:hover, .pizza14:hover, .pizza15:hover {
-    .pizza-description1, .pizza-description2, .pizza-description3, .pizza-description4, .pizza-description5, .pizza-description6, .pizza-description7, .pizza-description8, .pizza-description9, .pizza-description10, .pizza-description11, .pizza-description12, .pizza-description13, .pizza-description14, .pizza-description15{
+.pizza16 {
+    width: 202px;
+    cursor: pointer;
+}
+
+.pizza1:hover, .pizza2:hover, .pizza3:hover, .pizza4:hover, .pizza5:hover, .pizza6:hover, .pizza7:hover, .pizza8:hover, .pizza9:hover, .pizza10:hover, .pizza11:hover, .pizza12:hover, .pizza13:hover, .pizza14:hover, .pizza15:hover, .pizza16:hover {
+    .pizza-description1, .pizza-description2, .pizza-description3, .pizza-description4, .pizza-description5, .pizza-description6, .pizza-description7, .pizza-description8, .pizza-description9, .pizza-description10, .pizza-description11, .pizza-description12, .pizza-description13, .pizza-description14, .pizza-description15, .pizza-description16{
         color: #e31837;
     }
 }
@@ -774,7 +781,7 @@ main {
     color: #0274a8;
 }
 
-.pizza-description1, .pizza-description2, .pizza-description3, .pizza-description4, .pizza-description5, .pizza-description6, .pizza-description7, .pizza-description8, .pizza-description9, .pizza-description10, .pizza-description11, .pizza-description12, .pizza-description13, .pizza-description14, .pizza-description15{
+.pizza-description1, .pizza-description2, .pizza-description3, .pizza-description4, .pizza-description5, .pizza-description6, .pizza-description7, .pizza-description8, .pizza-description9, .pizza-description10, .pizza-description11, .pizza-description12, .pizza-description13, .pizza-description14, .pizza-description15, .pizza-description16{
     font-family: "Arial Narrow";
     font-size: 13px;
     margin-top: -18px;
