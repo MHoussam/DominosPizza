@@ -707,7 +707,7 @@ main {
     float: right;
 }
 
-.pizza-order {
+.pizza-order, .sides-order, .drinks-order, .desserts-order {
     margin-top: 15px;
     margin-left: 209px;
     padding-bottom: 4px;
@@ -715,12 +715,12 @@ main {
     display: inline-block;
 }
 
-.pizza-order a {
+.pizza-order a, .sides-order a, .drinks-order a, .desserts-order a {
     text-decoration: none;
     color: #006491;
 }
 
-.pizza1, .pizza2, .pizza3, .pizza5, .pizza6, .pizza7, .pizza9, .pizza10, .pizza11, .pizza13, .pizza14, .pizza15 {
+.pizza1, .pizza2, .pizza3, .pizza5, .pizza6, .pizza7, .pizza9, .pizza10, .pizza11, .pizza13, .pizza14, .pizza15, .sides1, .sides2, .sides3, .sides5, .drinks1, .drinks2, .drinks3, .drinks5, .desserts1 {
     float: left;
     width: 202px;
     margin-right: 35px;
@@ -728,7 +728,7 @@ main {
     cursor: pointer;
 }
 
-.pizza4, .pizza8, .pizza12 {
+.pizza4, .pizza8, .pizza12, .sides4, .drinks4 {
     float: left;
     width: 202px;
     cursor: pointer;
@@ -739,17 +739,17 @@ main {
     cursor: pointer;
 }
 
-.pizza1:hover, .pizza2:hover, .pizza3:hover, .pizza4:hover, .pizza5:hover, .pizza6:hover, .pizza7:hover, .pizza8:hover, .pizza9:hover, .pizza10:hover, .pizza11:hover, .pizza12:hover, .pizza13:hover, .pizza14:hover, .pizza15:hover, .pizza16:hover {
-    .pizza-description1, .pizza-description2, .pizza-description3, .pizza-description4, .pizza-description5, .pizza-description6, .pizza-description7, .pizza-description8, .pizza-description9, .pizza-description10, .pizza-description11, .pizza-description12, .pizza-description13, .pizza-description14, .pizza-description15, .pizza-description16{
+.pizza1:hover, .pizza2:hover, .pizza3:hover, .pizza4:hover, .pizza5:hover, .pizza6:hover, .pizza7:hover, .pizza8:hover, .pizza9:hover, .pizza10:hover, .pizza11:hover, .pizza12:hover, .pizza13:hover, .pizza14:hover, .pizza15:hover, .pizza16:hover, .sides1:hover, .sides2:hover, .sides3:hover, .desserts1:hover {
+    .pizza-description1, .pizza-description2, .pizza-description3, .pizza-description4, .pizza-description5, .pizza-description6, .pizza-description7, .pizza-description8, .pizza-description9, .pizza-description10, .pizza-description11, .pizza-description12, .pizza-description13, .pizza-description14, .pizza-description15, .pizza-description16, .sides-description1, .sides-description2, .sides-description3, .desserts-description1{
         color: #e31837;
     }
 }
 
-.pizza-pic {
+.pizza-pic, .sides-pic, .drinks-pic, .desserts-pic {
     display: block;
 }
 
-.pizza-btn {
+.pizza-btn, .sides-btn, .drinks-btn, .desserts-btn {
     width: 202px;
     height: 37px;
     margin-top: 7px;
@@ -765,23 +765,23 @@ main {
     transition: background-color .5s;
 }
 
-.pizza-btn a {
+.pizza-btn a, .sides-btn a, .drinks-btn a, .desserts-btn a {
     text-decoration: none;
     color: white;
 }
 
-.pizza-btn:hover {
+.pizza-btn:hover, .sides-btn:hover, .drinks-btn:hover, .desserts-btn:hover {
     background-color: #960f23;
 }
 
-.pizza-name {
+.pizza-name, .sides-name, .drinks-name, .desserts-name {
     margin-top: 8px;
     font-size: 18px;
     font-family: "Futura-Bold", "Arial Narrow";
     color: #0274a8;
 }
 
-.pizza-description1, .pizza-description2, .pizza-description3, .pizza-description4, .pizza-description5, .pizza-description6, .pizza-description7, .pizza-description8, .pizza-description9, .pizza-description10, .pizza-description11, .pizza-description12, .pizza-description13, .pizza-description14, .pizza-description15, .pizza-description16{
+.pizza-description1, .pizza-description2, .pizza-description3, .pizza-description4, .pizza-description5, .pizza-description6, .pizza-description7, .pizza-description8, .pizza-description9, .pizza-description10, .pizza-description11, .pizza-description12, .pizza-description13, .pizza-description14, .pizza-description15, .pizza-description16, .sides-description1, .sides-description2, .sides-description3, .drinks-description1, .drinks-description2, .drinks-description3, .drinks-description4, .drinks-description5, .desserts-description1 {
     font-family: "Arial Narrow";
     font-size: 13px;
     margin-top: -18px;
