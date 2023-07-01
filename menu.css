@@ -580,50 +580,97 @@ main {
     height: 333px;
   }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 3px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook, .fa-twitter, .fa-instagram, .fa-youtube {
-    background: transparent;
-    color: #0078ae;
-  }
-
-  .social-media {
-    
-  }
-
-  .fa-facebook {
-
-  }
-  
-  .fa-twitter {
-  }
-
-  .fa-instagram {
-  }
-
-  .fa-youtube {
-  }
-
-  .social-buttons {
+.social-media {
+    margin-left: 275px;
+    margin-top: 40px;
+    display: inline-block;
+    cursor: pointer;
     float: left;
-    margin-left: 250px;
-    position: relative;
-    top: -9px;
-    background: transparent;
-    color: #0078ae;
-  }
+}
 
-  .social-buttons:hover {
-    background-color: red;
-  }
+.facebook {
+    float: left;
+    width: 14px;
+    height: 25px;
+    margin-left: 4px;
+    background-image: url("img/facebook.png");
+}
+  
+.twitter {
+    margin-left: 17px;
+    margin-top: 3px;
+    float: left;
+    width: 24px;
+    height: 19px;
+    background: url("img/twitter.png");
+}
+
+.instagram {
+    margin-left: 12px;
+    float: left;
+    width: 24px;
+    height: 24px;
+    background: url("img/instagram.png");
+}
+
+.youtube {
+    margin-left: 12px;
+    margin-top: 4px;
+    float: left;
+    width: 24px;
+    height: 17px;
+    background: url("img/youtube.png");
+}
+
+.facebook:hover {
+    background: url("img/facebook-hover.png") no-repeat;
+}
+
+.twitter:hover {
+    background: url("img/twitter-hover.png") no-repeat;
+}
+
+.instagram:hover {
+    background: url("img/instagram-hover.png") no-repeat;
+}
+
+.youtube:hover {
+    background: url("img/youtube-hover.png") no-repeat;
+}
+
+.pepsi {
+    float: left;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.mobile {
+    display: inline-block;
+    margin-top: 37px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.apple {
+    float: left;
+    margin-right: 12px;
+}
+
+.android {
+    float: left;
+    margin-right: 12px;
+}
+
+.huawei {
+    display: inline;
+}
+
+.msg {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 15.5px;
+    color: rgb(54, 54, 54);
+    margin-top: 47px;
+    margin-left: 274px;
+    font-size: 13px;
+    font-weight: bold;
+}
