@@ -517,6 +517,7 @@ li.select6 a {
     right: 0;
     width: 100%;
     height: 333px;
+    margin-top: 30px;
 }
 
 .footer li {
@@ -575,14 +576,14 @@ li.select6 a {
     position: absolute;
 }
 
-main {
+.main {
     min-height: 100vh;
     margin-bottom: -333px;
-  }
+}
 
-  .push {
+.push {
     height: 333px;
-  }
+}
 
 .social-media {
     margin-left: 275px;
@@ -737,6 +738,7 @@ main {
 .pizza16 {
     width: 202px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 .pizza1:hover, .pizza2:hover, .pizza3:hover, .pizza4:hover, .pizza5:hover, .pizza6:hover, .pizza7:hover, .pizza8:hover, .pizza9:hover, .pizza10:hover, .pizza11:hover, .pizza12:hover, .pizza13:hover, .pizza14:hover, .pizza15:hover, .pizza16:hover, .sides1:hover, .sides2:hover, .sides3:hover, .desserts1:hover, .chicken1:hover {
@@ -787,4 +789,77 @@ main {
     margin-top: -18px;
     text-decoration: none;
     line-height: 12px;
+}
+
+.options { 
+    margin-left: 202px; 
+    background-color: #e5edf3;
+    width: 928px;
+    height: 228px;
+    border: 1px solid rgba(85,85,85,.2);
+}
+
+.options-ul {
+    margin-left: -49px;
+    margin-top: -9px;
+}
+
+.options-ul li {
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Futura-Bold", "Arial Narrow";
+    color: #0274a8;
+    float: left;
+    margin-left: 21px;
+}
+
+.l1 {
+    width: 287px;
+    height: 78px;    
+    border-right: 2px solid #cfd9e4;
+}
+
+.l2 {
+    width: 287px;
+    height: 78px;
+}
+
+.l3 {
+    width: 287px;
+    height: 125px;  
+    margin-top: 14px;  
+}
+
+.l4 {
+    width: 597px;
+    height: 125px;  
+    margin-top: 14px;  
+}
+
+.options-line {
+    position: absolute;
+    width: 928px;
+    margin-top: 78px;
+    margin-left: 8px;
+    border-bottom: 2px solid #cfd9e4;
+}
+
+.options-second ul {
+    margin-left: -60px;
+    margin-top: 5px;
+    float: left;
+}
+
+.options-third ul {
+    margin-left: 255px;
+    margin-top: 5px;
+}
+
+.options-second li, .options-third li {
+    display: block;
+    float: none;
+    font-size: 13px;
+    font-family: "Arial Narrow";
+    color: #555;
+    margin-bottom: 1px;
 }
