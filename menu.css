@@ -1,73 +1,9 @@
 @import url(//db.onlinewebfonts.com/c/7c6661efce01eac269383bac79303c1b?family=Arial+Narrow);
 @font-face {font-family: "Arial Narrow"; src: url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.eot"); src: url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.woff") format("woff"), url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7c6661efce01eac269383bac79303c1b.svg#Arial Narrow") format("svg"); }
-@font-face {
-    font-family: "ArchivoNarrow"; 
-    src: url(fonts/ArchivoNarrow.tff) format('truetype');
-}
-
-@font-face {
-    font-family: "Aclonica-Regular";
-    src: url(fonts/Aclonica-Regular.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: "Aclonica-Bold";
-    src: url(fonts/Aclonica-Bold.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: "Agdasima-Bold";
-    src: url(fonts/Agdasima-Bold.tff) format('truetype');
-}
-
-@font-face {
-    font-family: "Agdasima-Regular";
-    src: url(fonts/Agdasima-Regular.tff) format('truetype');
-}
-
-@font-face {
-    font-family: "RobotoCondensed-Bold";
-    src: url(fonts/RobotoCondensed-Bold.tff) format('truetype');
-}
-
-@font-face {
-    font-family: "RobotoCondensed-Regular";
-    src: url(fonts/RobotoCondensed-Regular.tff) format('truetype');
-}
-
-@font-face {
-    font-family: "Futur";
-    src: url(fonts/futur.ttf) format('truetype');
-}
 
 @font-face {
     font-family: "Futura-Bold";
     src: url(fonts/Futura-Bold-font.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: "Futura-Book";
-    src: url(fonts/Futura-Book.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: "Futura-Heavy";
-    src: url(fonts/Futura-Heavy.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: "Benguiat-Normal";
-    src: url(fonts/Benguiat-Normal.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: "Benguiat-Regular";
-    src: url(fonts/Benguiat-Regular.ttf) format('truetype');
-}
-
-@font-face {
-    font-family: "Benguiat-Bold";
-    src: url(fonts/Benguiat-Bold.ttf) format('truetype');
 }
 
 body {
