@@ -207,12 +207,6 @@ body {
     margin-top: -30px;
 }
 
-.food {
-    margin-left: 203px;
-    margin-top: 15px;
-    width: 927px;
-}
-
 .text1 {
     font-family: "Futura-Bold", "Arial Narrow";
     font-size: 2.5em;
@@ -240,13 +234,29 @@ body {
     color: red;
 }
 
-.pizza {
-    background-color: white;
+.food {
+    margin-left: 203px;
+    margin-top: 15px;
     width: 927px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: space-between;
+}
+
+.food a {
+    color: #006491;
+    text-decoration: none;
+}
+
+.pizza, .chicken, .sides, .drinks, .desserts {
+    background-color: white;
     height: 77px;
-    margin-bottom: 12px;
+    /*margin-bottom: 12px;*/
     border: .1px solid rgb(221, 220, 220);
     cursor: pointer;
+    display: flex;
+    
 }
 
 .pizza:hover {
@@ -256,57 +266,11 @@ body {
     }
 }
 
-.pic-pizza {
-    margin-left: 1px;
-    float: left;
-}
-
-.text3 {
-    display: inline-block;
-    margin-top: 23px;
-    margin-left: 48px;
-    font-family: "Futura-Bold", "Arial Narrow";
-    font-size: 1.5em;
-    color: #006491;
-}
-
-.chicken {
-    background-color: white;
-    width: 927px;
-    height: 77px;
-    margin-bottom: 12px;
-    border: .1px solid rgb(221, 220, 220);
-    cursor: pointer;
-}
-
 .chicken:hover {
     background-color: #006491;
     .text4 {
         color: white;
     }
-}
-
-.pic-chicken {
-    margin-left: 1px;
-    float: left;
-}
-
-.text4 {
-    display: inline-block;
-    margin-top: 23px;
-    margin-left: 48px;
-    font-family: "Futura-Bold", "Arial Narrow";
-    font-size: 1.5em;
-    color: #006491;
-}
-
-.sides {
-    background-color: white;
-    width: 927px;
-    height: 77px;
-    margin-bottom: 12px;
-    border: .1px solid rgb(221, 220, 220);
-    cursor: pointer;
 }
 
 .sides:hover {
@@ -316,57 +280,11 @@ body {
     }
 }
 
-.pic-sides {
-    margin-left: 1px;
-    float: left;
-}
-
-.text5 {
-    display: inline-block;
-    margin-top: 23px;
-    margin-left: 48px;
-    font-family: "Futura-Bold", "Arial Narrow";
-    font-size: 1.5em;
-    color: #006491;
-}
-
-.drinks {
-    background-color: white;
-    width: 927px;
-    height: 77px;
-    margin-bottom: 12px;
-    border: .1px solid rgb(221, 220, 220);
-    cursor: pointer;
-}
-
 .drinks:hover {
     background-color: #006491;
     .text6 {
         color: white;
     }
-}
-
-.pic-drinks {
-    margin-left: 1px;
-    float: left;
-}
-
-.text6 {
-    display: inline-block;
-    margin-top: 23px;
-    margin-left: 48px;
-    font-family: "Futura-Bold", "Arial Narrow";
-    font-size: 1.5em;
-    color: #006491;
-}
-
-.desserts {
-    background-color: white;
-    width: 927px;
-    height: 77px;
-    margin-bottom: 26px;
-    border: .1px solid rgb(221, 220, 220);
-    cursor: pointer;
 }
 
 .desserts:hover {
@@ -376,18 +294,14 @@ body {
     }
 }
 
-.pic-desserts {
+.pic-pizza, .pic-chicken, .pic-sides, .pic-drinks, .pic-desserts {
     margin-left: 1px;
-    float: left;
 }
 
-.text7 {
-    display: inline-block;
-    margin-top: 23px;
+.text3, .text4, .text5, .text6, .text7 {
     margin-left: 48px;
     font-family: "Futura-Bold", "Arial Narrow";
     font-size: 1.5em;
-    color: #006491;
 }
 
 .footer {  
