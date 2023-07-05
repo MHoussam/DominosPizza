@@ -271,7 +271,7 @@ body {
     }
 }
 
-.sides:hover {~
+.sides:hover {
     background-color: #006491;
     .text5 {
         color: white;
@@ -474,7 +474,6 @@ body {
 
 .selection {
     margin-top: -2px;
-    margin-left: 202px;
     width: 930px;
     height: 35px;
     background-color: #006491;
@@ -502,7 +501,7 @@ body {
 
 .pizza-order, .sides-order, .drinks-order, .desserts-order, .chicken-order {
     margin-top: 15px;
-    margin-left: 209px;
+    margin-left: 7px;
     padding-bottom: 4px;
     width: 915px;
     display: inline-block;
