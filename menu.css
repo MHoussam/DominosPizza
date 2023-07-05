@@ -271,7 +271,7 @@ body {
     }
 }
 
-.sides:hover {
+.sides:hover {~
     background-color: #006491;
     .text5 {
         color: white;
