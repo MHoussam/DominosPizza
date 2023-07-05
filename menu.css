@@ -131,14 +131,16 @@ body {
 
 
 
+
+
+
 .food {
     margin-left: 203px;
     margin-top: 15px;
     width: 927px;
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
-    justify-content: space-between;
+    
 }
 
 .order {
@@ -150,6 +152,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 10px;
 }
 
 .start_order {
@@ -209,7 +212,6 @@ body {
 .text1 {
     font-family: "Futura-Bold", "Arial Narrow";
     font-size: 2.5em;
-    display: inline-block;
     color: #333;
 }
 
@@ -217,7 +219,8 @@ body {
     color: #006491;
     font-family: "Arial Narrow";
     font-size: 13.5px;
-    margin-top: -32px;
+    margin-top: 8px;
+    margin-bottom: 12px;
 }
 
 .span1 {
@@ -233,6 +236,12 @@ body {
     color: red;
 }
 
+.dominos-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
 .dominos-menu a {
     text-decoration: none;
     color: #006491;
@@ -241,7 +250,7 @@ body {
 .pizza, .chicken, .sides, .drinks, .desserts {
     background-color: white;
     height: 77px;
-    /*margin-bottom: 12px;*/
+    margin-bottom: 12px;
     border: .1px solid rgb(221, 220, 220);
     cursor: pointer;
     display: flex;
@@ -365,7 +374,7 @@ body {
 }
 
 .push {
-    height: 333px;
+    height: 320px;
 }
 
 .social-media {
